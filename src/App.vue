@@ -1,70 +1,52 @@
 <template>
   <div id="app">
-    <div class="c-nav">
-      <nav
-        class="c-nav__content"
-        :class="{ 'active': isActive }">
-
-        <!-- not listing -->
-        <router-link
-          v-for="{link, value} in withoutListing"
-          :to="link"
-          @click.native="isActive = !isActive">{{value}}</router-link>
-
-        <!-- with list -->
-
-        <div
-          v-for="list in listing">
-          {{ list }}
-        </div>
-
-      </nav>
-
-      <div class="c-nav__shadow"
-          v-if="isActive"
-          v-on:click="isActive = !isActive"></div>
-
-      <div class="c-nav__toogleButton"
-          :class="{ 'active': isActive }">
-        <button
-          class="c-nav__toogleButton__hamburger"
-          v-on:click="isActive = !isActive">
-          <span></span>
-        </button>
-      </div>
+    <NavBar />
+    <div class="content">
+      <router-view/>
     </div>
-
-    <router-view/>
   </div>
 </template>
 
 <script>
-import * as indexFiles from "./assets/indexFiles.json";
-const { files } = indexFiles.default;
-
+import NavBar from "./components/NavBar/NavBar.vue";
 export default {
-  data: () => ({
-    isActive: false,
-    menu: files
-  }),
-  computed: {
-    withoutListing () {
-      return this.menu.filter(l => !l.list)
-    },
-    listing () {
-      return this.menu.filter(l => l.list)
-    }
+  components: {
+    NavBar
   }
 }
 </script>
 
-<style lang="css" src="./assets/reset.css"></style>
+<style lang="css" src="./assets/css/reset.css"></style>
 
 <style lang="sass">
+@import "@/assets/sass/variables.sass"
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
 // styles for main app wrapper
 #app
   background-color: #ecf0f1
   min-height: 100vh
+  .content
+    @media screen and (max-width: $mobile)
+      margin-top: 85px
+    @media screen and (min-width: $mobile + 1)
+      width: 200px
+      margin: auto
+      background-color: red
+    @media screen and (min-width: $mobile-full)
+      width: 300px
+    @media screen and (min-width: $tablet-small)
+      width: 400px
+    @media screen and (min-width: $tablet-medium)
+      width: 600px
+    @media screen and (min-width: $tablet-full)
+      width: 800px
+    @media screen and (min-width: $medium-site)
+      width: 1200px
+    @media screen and (min-width: $full-site)
+      width: 1450px
 </style>
-
-<style scoped lang="sass" src="./components/NavBar/NavBar.sass"></style>

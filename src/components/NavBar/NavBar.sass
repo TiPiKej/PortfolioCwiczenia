@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500')
+@import "@/assets/sass/variables.sass"
 
-$menuwidth: 400px
 $buttondiameter: 70px
+$menuwidth: 400px
 
-*
-  padding: 0
-  margin: 0
-  box-sizing: border-box
 
 .c-nav
   display: flex
@@ -22,34 +19,79 @@ $buttondiameter: 70px
     transition: left 220ms ease
     z-index: 10
     overflow-x: hidden
-    min-height: 100vh
+    overflow-y: scroll
+    height: 100vh
     @media screen and (max-width: $menuwidth)
       // position: relative
       overflow-x: scroll
     &.active
       left: 0
+    p
+      position: relative
+      display: flex
+      justify-content: space-between
+      .listIcon
+        position: relative
+        width: 20px
+        height: 20px
+        display: block
+        &::after, &::before
+          content: ''
+          background: #fff
+          height: 3px
+          width: 63%
+          position: absolute
+          top: 44%
+          transition: all 220ms ease-in-out
+        &::after
+          transform: rotateZ(45deg)
+          left: 0
+        &::before
+          right: 0
+          transform: rotateZ(-45deg)
+      &.active .listIcon
+        &::after
+          transform: rotateZ(-45deg)
+        &::before
+          transform: rotateZ(45deg)
     a
+      &:first-child
+        margin-top: $buttondiameter + 20px
+      &:last-child
+        margin-bottom: 10px
+    a, p
+      user-select: none
+      cursor: pointer
       font-size: 26px
       color: #fff
       outline: none
       padding: 15px 5px
       text-decoration: none
       text-align: center
-      transition: background 220ms ease-in-out
+      transition: all 220ms ease-in-out
       position: relative
       background-image: linear-gradient(to bottom,#006aa9 0,#006aa9 100%)
       background-repeat: no-repeat
       background-size: 0% 100%
       background-position: 50% 100%
+      height: 56px
+      opacity: 1
       &:hover
         background-color: #2980b9
-      &:first-child
-        margin-top: $buttondiameter + 20px
-      &:last-child
-        margin-bottom: 10px
-      &.router-link-exact-active
+      &.router-link-exact-active, &.active
         background-position: 50% 100%
         background-size: 100% 100%
+    p ~ a
+      height: 0
+      display: block
+      opacity: 0
+      padding: 0
+      &:last-child
+        margin-bottom: 0
+    p.active ~ a
+      height: 56px
+      opacity: 1
+      padding: 15px 5px
   &__shadow
     position: fixed
     top: 0
@@ -66,7 +108,7 @@ $buttondiameter: 70px
     left: 0
     top: 0
     &.active
-      left: ($menuwidth - $buttondiameter) / 2
+      left: ($menuwidth - $buttondiameter - 10 - 20) / 2
       @media screen and (max-width: $menuwidth)
         left: calc(50vw - #{$buttondiameter} / 2)
       span
