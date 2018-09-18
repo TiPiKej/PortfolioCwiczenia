@@ -11,13 +11,24 @@ export default new Router({
       name: 'home',
       component: Home
     },
-    // {
-    //   path: '/my-pages',
-    //   name: 'mypages',
-    //   // route level code-splitting
-    //   // this generates a separate chunk (my-pages.[hash].js) for this route
-    //   // which is lazy-loaded when the route is visited.
-    //   component: () => import(/* webpackChunkName: "my-pages" */ './views/MyPages.vue')
-    // }
+    {
+      path: '/settings',
+      name: 'settings',
+      component: () => import(/* webpackChunkName: "settings" */ './views/Settings.vue')
+    },
+
+
+
+    // Code Challenge links
+    {
+      path: '/codeChallenge/jiggle_button',
+      name: 'JiggleButton',
+      component: () => import(/* webpackChunkName: "JiggleButton" */ './views/CodeChallenge/jiggle_button.vue')
+    },
+    {
+      path: '/codeChallenge/calc',
+      name: 'Calc',
+      component: () => import(/* webpackChunkName: "calc" */ './views/CodeChallenge/calc.vue')
+    }
   ]
 })

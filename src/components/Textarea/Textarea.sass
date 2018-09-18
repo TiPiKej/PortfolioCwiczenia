@@ -1,0 +1,30 @@
+@import "@/assets/sass/variables.sass"
+
+.c-Textarea
+	display: flex
+	flex-direction: column
+	margin: 10px 0
+	width: 400px
+	@media screen and (max-width: $mobile-full)
+		width: 200px
+	@media screen and (min-width: $tablet-full)
+		width: 600px
+	@media screen and (min-width: $full-site)
+		width: 800px
+	&__content
+		height: 200px
+	&__buttonCopy
+		height: 3em
+		margin: auto
+		margin-top: 10px
+		width: 50%
+		background: $primary-500
+		color: $primary-color
+		font-weight: 700
+		letter-spacing: 2px
+		outline: none
+		border: none
+		cursor: pointer
+		transition: background 220ms ease-in-out
+		&:hover
+			background: $primary-700

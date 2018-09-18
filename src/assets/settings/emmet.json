@@ -1,0 +1,31 @@
+{
+	"snippets": {
+		"variables": {
+			"lang": "pl",
+			"locale": "pl-PL",
+			"charset": "UTF-8",
+			"indentation": "\t",
+			"newline": "\n"
+		},
+
+		"html": {
+			"abbreviations": {
+				"m-width": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>",
+				"m-explorer": "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />",
+				"l-style": "<link rel=\"stylesheet\" type=\"text/css\" href=\"${1}\"/>",
+				"script": "<script type=\"text/javascript\"></script>",
+				"l-script": "<script type=\"text/javascript\" src=\"${1}\"></script>",
+				"miniaturka": "<link rel=\"Shortcut icon\" href=\"${1}\" />",
+
+				"html:5": "!!!+html[lang=${locale}]>(head>meta[charset=${charset}]+m-width+m-explorer+title{${1:Dokument}})+body"
+			}
+		},
+
+		"css": {
+			"abbreviations": {
+				"import": "@import url('${1:root.css}');",
+				"*": "*{\nmargin: 0;\npadding: 0;\nbox-sizing: border-box;\n}"
+			}
+		}
+	}
+}

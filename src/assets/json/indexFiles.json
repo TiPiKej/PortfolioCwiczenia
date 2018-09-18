@@ -1,7 +1,7 @@
 {
 	"files": [
     { "value": "Strona Główna", "link": "/" },
-		{ "value": "Ustawienia", "link": "/ustawienia"  },
+		{ "value": "Ustawienia", "link": "/settings"  },
 		{ "value": "Code Challenge", "list": true, "nameoflist": "codechallenge",
 			"elements": [
 				{ "value": "Jiggle Button", "link": "/codeChallenge/jiggle_button", "nr": 1 },

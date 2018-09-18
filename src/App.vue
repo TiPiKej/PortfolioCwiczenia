@@ -36,7 +36,6 @@ export default {
     @media screen and (min-width: $mobile + 1)
       width: 200px
       margin: auto
-      background-color: red
     @media screen and (min-width: $mobile-full)
       width: 300px
     @media screen and (min-width: $tablet-small)
