@@ -8,35 +8,26 @@
 			v-else
 			class="c-Textarea__content">{{value}}</textarea>
 
-		<button 
-			v-if="buttonCopy"
-			v-on:click="copy"
-			class="c-Textarea__buttonCopy">
-			Kopiuj
-		</button>
+
+		<CopyClipboardButton
+			class="c-Textarea__buttonCopy"
+			:copyValue="JSON.stringify(value)" />
 	</div>
 </template>
 
 <script>
+import CopyClipboardButton from '@/components/CopyClipboardButton/';
 
 
 export default {
 	name: "Textarea",
+	components: {
+		CopyClipboardButton
+	},
 	props: {
 		value: Object,
 		readonly: Boolean,
 		buttonCopy: Boolean
-	},
-	methods: {
-		copy: (el) => {
-			const {children} = el.target.parentElement;
-			const textareas = Array.from(children).filter(el => el.type === 'textarea');
-
-			Array.from(textareas).forEach(el => {
-				el.select();
-				document.execCommand('copy');
-			});
-		}
 	}
 }
 

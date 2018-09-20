@@ -1,0 +1,29 @@
+{
+	"files": [
+    { "value": "Strona Główna", "link": "/" },
+		{ "value": "Ustawienia", "link": "/settings"  },
+		{ "value": "Code Challenge", "list": true, "nameoflist": "codechallenge",
+			"elements": [
+				{ "value": "Jiggle Button", "link": "/codeChallenge/jiggle_button", "nr": 1 },
+				{ "value": "Kalkulator", "link": "/codeChallenge/calc", "nr": 2 },
+				{ "value": "Checkbox", "link": "/codeChallenge/check", "nr": 3 },
+				{ "value": "Monster", "link": "/codeChallenge/monster", "nr": 4 },
+				{ "value": "Videos block", "link": "/codeChallenge/videos", "nr": 5 },
+				{ "value": "Timer", "link": "/codeChallenge/timer", "nr": 6 },
+				{ "value": "Search bar", "link": "/codeChallenge/search_bar", "nr": 8 },
+				{ "value": "Scroll-Spy Navbar", "link": "/codeChallenge/nav", "nr": 9 },
+				{ "value": "Lazy Loading Animal Memes", "link": "/codeChallenge/lazyLoading", "nr": 10 },
+				{ "value": "Arrays", "link": "/codeChallenge/arrays", "nr": 11 },
+				
+				{ "value": "Manipulation","link": "/codeChallenge/manipulation", "nr": 12}
+			]
+		},
+		{ "value": "Loaders","link": "/loaders" },
+		{ "value": "Buttony", "list": true, "nameoflist": "buttons",
+			"elements": [
+				{ "value": "Android buttons", "link": "/button/android" },
+				{ "value": "Button to copying to clipboard", "link": "/button/clipboard" }
+			]
+		}
+  ]
+}

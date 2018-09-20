@@ -37,8 +37,8 @@
 
 <script>
 // @ is an alias to /src
-import Textarea from '@/components/Textarea/Textarea.vue'
-import Paragraph from '@/components/Paragraph/Paragraph.vue'
+import Textarea from '@/components/Textarea/'
+import Paragraph from '@/components/Paragraph/'
 import * as EmmetSettings from '@/assets/settings/emmet.json';
 import * as SublimeTextSettings from '@/assets/settings/sublimetext.json';
 

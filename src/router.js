@@ -29,6 +29,20 @@ export default new Router({
       path: '/codeChallenge/calc',
       name: 'Calc',
       component: () => import(/* webpackChunkName: "calc" */ './views/CodeChallenge/calc.vue')
+    },
+
+
+
+    // Buttons
+    {
+      path: '/button/clipboard',
+      name: 'BClipboard',
+      component: () => import('./views/Buttons/Clipboard.vue')
+    },
+    {
+      path: '/button/android',
+      name: 'BAndroid',
+      component: () => import('./views/Buttons/AndroidButton.vue')
     }
   ]
 })

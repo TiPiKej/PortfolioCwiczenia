@@ -1,17 +1,23 @@
 <template>
 	<div class="home">
-		<Home />
+		<PageBlock
+      v-for="file in indexFiles"
+      :value="file" />
 	</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Home from '@/components/Home/Home.vue'
+import PageBlock from "@/components/PageBlock/";
+import * as indexFiles from "@/assets/json/indexFiles.json";
+const { files } = indexFiles.default;
 
 export default {
   name: 'home',
+  data: () => ({
+  	indexFiles: files
+  }),
   components: {
-    Home
+  	PageBlock
   }
 }
 </script>

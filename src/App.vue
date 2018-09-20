@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <NavBar />
+    <InfoBar
+      value="Kliknij w baner żeby wejść do poprzedniej strony z ćwiczeniami"
+      position="top-static"
+      :exitButton="true"
+      banerLink="http://tomekkumor.000webhostapp.com/cw/" />
     <div class="content">
       <router-view/>
     </div>
@@ -8,10 +13,13 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar/NavBar.vue";
+import NavBar from "./components/NavBar/";
+import InfoBar from "./components/InfoBar/";
+
 export default {
   components: {
-    NavBar
+    NavBar,
+    InfoBar
   }
 }
 </script>
