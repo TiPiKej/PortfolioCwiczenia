@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "80a8c402df4a68b5d5b5",
-    "url": "/PortfolioCwiczenia/css/settings.e81d5f43.css"
+    "revision": "87bcab4663eb37efc459",
+    "url": "/PortfolioCwiczenia/css/settings.5ef71b44.css"
   },
   {
     "revision": "21ca144f202d3bf00e6f8500e04af0ab",
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/img/z.jpg"
   },
   {
-    "revision": "19d35eb497167ab3d7c2",
-    "url": "/PortfolioCwiczenia/js/app.5b0665e9.js"
+    "revision": "ba77301b552dfc38a90e",
+    "url": "/PortfolioCwiczenia/js/app.f8283833.js"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/js/JiggleButton.40747659.js"
   },
   {
-    "revision": "80a8c402df4a68b5d5b5",
-    "url": "/PortfolioCwiczenia/js/settings.97e9c903.js"
+    "revision": "87bcab4663eb37efc459",
+    "url": "/PortfolioCwiczenia/js/settings.ba7c510d.js"
   },
   {
-    "revision": "3ca39d65d0e1303e7f29c70d3b617915",
+    "revision": "d4d550118f39bb6fa27bb0e756ff6267",
     "url": "/PortfolioCwiczenia/index.html"
   },
   {
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/css/calc.14e812c8.css"
   },
   {
-    "revision": "19d35eb497167ab3d7c2",
+    "revision": "ba77301b552dfc38a90e",
     "url": "/PortfolioCwiczenia/css/app.326e45b8.css"
   },
   {
