@@ -1,3 +1,8 @@
+<script>
+/* eslint-disable */
+</script>
+
+
 <template>
 	<div class="settings">
 
@@ -32,6 +37,38 @@
 		
 		<!--====  End of Emmet settings  ====-->
 		
+		
+		<!--===========================================
+		=            VisualStudio settings            =
+		============================================-->
+		
+		<div class="wrapper">
+			<Paragraph 
+				value="Visual Studio"/>
+			<Textarea
+				readonly=""
+				buttonCopy=""
+				:value="VisualStudioSettings" />
+		</div>
+		
+		<!--====  End of VisualStudio settings  ====-->
+		
+		
+		<!--=======================================
+		=            VisualStudio keys            =
+		========================================-->
+		
+		<div class="wrapper">
+			<Paragraph 
+				value="Visual Studio Keybinds"/>
+			<Textarea
+				readonly=""
+				buttonCopy=""
+				:value="VisualStudioKeys" />
+		</div>
+		
+		<!--====  End of VisualStudio keys  ====-->
+		
 	</div>
 </template>
 
@@ -41,6 +78,8 @@ import Textarea from '@/components/Textarea/'
 import Paragraph from '@/components/Paragraph/'
 import * as EmmetSettings from '@/assets/settings/emmet.json';
 import * as SublimeTextSettings from '@/assets/settings/sublimetext.json';
+import * as VisualStudioSettings from '@/assets/settings/VisualStudioSetting.json';
+import * as VisualStudioKeys from '@/assets/settings/VisualStudioKeys.json';
 
 export default {
   name: 'Settings',
@@ -50,7 +89,9 @@ export default {
   },
   data: () => ({
   	EmmetSettings: EmmetSettings.default,
-  	SublimeTextSettings: SublimeTextSettings.default
+		SublimeTextSettings: SublimeTextSettings.default,
+		VisualStudioSettings: VisualStudioSettings.default,
+		VisualStudioKeys: VisualStudioKeys.default
   })
 }
 </script>
@@ -62,7 +103,5 @@ export default {
 	display: flex
 	flex-direction: column
 	align-items: center
-	// .paragraph
-	// 	font
 
 </style>

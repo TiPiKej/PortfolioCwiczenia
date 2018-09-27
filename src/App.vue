@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar/";
-import InfoBar from "./components/InfoBar/";
+import NavBar from './components/NavBar/'
+import InfoBar from './components/InfoBar/'
 
 export default {
   components: {

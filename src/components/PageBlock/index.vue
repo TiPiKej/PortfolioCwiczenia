@@ -1,11 +1,23 @@
+<script>
+/* eslint-disable */
+</script>
+
 <template>
-	<div>sadsadsa</div>
+	<div>
+		<PageSingleBlock />
+	</div>
 </template>
 
 <script>
+import PageSingleBlock from '@/components/PageSingleBlock/'
 
 export default {
-	name: "PageBlock"
+	name: 'PageBlock',
+	props: {
+		value: Object
+	},
+	components: {
+		PageSingleBlock
+	}
 }
-
 </script>

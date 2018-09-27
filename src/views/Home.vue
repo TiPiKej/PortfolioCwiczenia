@@ -1,23 +1,26 @@
 <template>
-	<div class="home">
-		<PageBlock
+  <div class="home">
+    <PageBlock
       v-for="file in indexFiles"
+      :key="file"
       :value="file" />
-	</div>
+  </div>
 </template>
 
 <script>
-import PageBlock from "@/components/PageBlock/";
-import * as indexFiles from "@/assets/json/indexFiles.json";
-const { files } = indexFiles.default;
+import PageBlock from '@/components/PageBlock/'
+import * as indexFiles from '@/assets/json/indexFiles.json'
 
 export default {
   name: 'home',
   data: () => ({
-  	indexFiles: files
+    indexFiles: indexFiles.default.files
   }),
   components: {
-  	PageBlock
+    PageBlock
+  },
+  computed: {
+    // listInfo
   }
 }
 </script>

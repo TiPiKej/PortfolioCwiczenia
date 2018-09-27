@@ -16,8 +16,11 @@ export default new Router({
       name: 'settings',
       component: () => import(/* webpackChunkName: "settings" */ './views/Settings.vue')
     },
-
-
+    {
+      path: '/loaders',
+      name: 'loaderView',
+      component: () => import(/* webpackChunkName: "loaders" */ './views/Loaders.vue')
+    },
 
     // Code Challenge links
     {
@@ -30,8 +33,6 @@ export default new Router({
       name: 'Calc',
       component: () => import(/* webpackChunkName: "calc" */ './views/CodeChallenge/calc.vue')
     },
-
-
 
     // Buttons
     {
