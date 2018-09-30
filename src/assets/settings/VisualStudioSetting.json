@@ -12,6 +12,7 @@
       "node_modules/**": true
   },
   "editor.fontFamily": "Fira Code, Arial, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.letterSpacing": 0.6,
@@ -19,5 +20,6 @@
   "editor.mouseWheelScrollSensitivity": 1,
   "window.zoomLevel": 1,
   "zenMode.hideStatusBar": false,
-  "window.zoomLevel": 0.5
+  "window.zoomLevel": 0.5,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 }
