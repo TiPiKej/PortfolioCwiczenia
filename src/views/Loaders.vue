@@ -5,10 +5,13 @@
       height="150"
       :barsTypes="{
         nrOfBars: 5,
-        colors: ['#f1c40f', '#e67e22', '#d35400', '#f39c12', '#c0392b']
+        colors: ['#f1c40f', '#e67e22', '#d35400', '#f39c12', '#c0392b'],
+        durations: [1,-1,1,-1,1]
       }"
-      backgroundColor="black"
-      backgroundBlur="0.8" />
+      :background="{
+        color: '#000000',
+        opacity: 0.8
+      }" />
   </div>
 </template>
 

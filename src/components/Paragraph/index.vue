@@ -1,5 +1,9 @@
 <template>
-	<p class="c-Paragraph">{{value}}</p>
+	<p
+		class="c-Paragraph"
+		:class="{header}">
+		{{value}}
+	</p>
 </template>
 
 <script>
@@ -7,7 +11,8 @@
 export default {
 	name: "Paragraph",
 	props: {
-		value: String
+		value: String,
+		header: Boolean
 	}
 }
 
