@@ -113,10 +113,10 @@ export default {
           color = this.barsTypes.colors ? (
             this.barsTypes.colors[i - 1] ? this.barsTypes.colors[i - 1] : '#000000'
           ) : '#000000'
-          
+
           durations = this.barsTypes.durations ? (
             this.barsTypes.durations[i - 1] ? this.barsTypes.durations[i - 1] : (
-              this.barsTypes.durations[i - 1] === 0? this.barsTypes.durations[i - 1] : i
+              this.barsTypes.durations[i - 1] === 0 ? this.barsTypes.durations[i - 1] : i
             )
           ) : i
 
