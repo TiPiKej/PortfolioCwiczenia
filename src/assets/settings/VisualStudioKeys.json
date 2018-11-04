@@ -42,5 +42,13 @@
   {
     "key": "ctrl+oem_3",
     "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+numpad7",
+    "command": "workbench.action.output.toggleOutput"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "-workbench.action.output.toggleOutput"
   }
 ]

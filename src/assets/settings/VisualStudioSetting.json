@@ -4,12 +4,12 @@
   "files.autoSave": "on",
   "editor.fontSize": 13,
   "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "node_modules/**": true
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules/**": true
   },
   "editor.fontFamily": "Fira Code, Arial, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -21,5 +21,6 @@
   "window.zoomLevel": 1,
   "zenMode.hideStatusBar": false,
   "window.zoomLevel": 0.5,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "editor.formatOnSave": true
 }
