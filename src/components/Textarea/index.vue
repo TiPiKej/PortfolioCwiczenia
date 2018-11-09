@@ -1,8 +1,3 @@
-<script>
-/* eslint-disable */
-</script>
-
-
 <template>
 	<div class="c-Textarea">
 		<textarea
@@ -23,32 +18,30 @@
 </template>
 
 <script>
-import CopyClipboardButton from '@/components/CopyClipboardButton/'
+import CopyClipboardButton from "@/components/CopyClipboardButton/";
 
 export default {
-	name: "Textarea",
-	components: {
-		CopyClipboardButton
-	},
-	props: {
-		value: Object,
-		readonly: Boolean,
-		buttonCopy: Boolean
-	},
-	data: () => ({
-		height: '200px'
-	}),
-	mounted(){
-		const countLines = (
-			JSON.stringify(this.value).split(',').length + 
-			JSON.stringify(this.value).split('},').length + 
-			1
-			)
-		const lineHeight = (21 + 1/3) // in px
-		this.height = `${countLines * lineHeight}px`
-	}
-}
-
+  name: "Textarea",
+  components: {
+    CopyClipboardButton
+  },
+  props: {
+    value: Object | Array,
+    readonly: Boolean,
+    buttonCopy: Boolean
+  },
+  data: () => ({
+    height: "200px"
+  }),
+  mounted() {
+    const countLines =
+      JSON.stringify(this.value).split(",").length +
+      JSON.stringify(this.value).split("},").length +
+      1;
+    const lineHeight = 21 + 1 / 3; // in px
+    this.height = `${countLines * lineHeight}px`;
+  }
+};
 </script>
 
 <style lang="sass" scoped="" src="./Textarea.sass"></style>

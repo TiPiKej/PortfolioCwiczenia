@@ -1,19 +1,31 @@
 {
-	"files": [
-    { "value": "Strona Główna", "link": "/" },
-		{ "value": "Ustawienia", "link": "/settings"  },
-		{ "value": "Code Challenge", "list": true, "nameoflist": "codechallenge",
-			"elements": [
-				{ "value": "Jiggle Button", "link": "/codeChallenge/jiggle_button", "nr": 1 },
-				{ "value": "Kalkulator", "link": "/codeChallenge/calc", "nr": 2 }
-			]
-		},
-		{ "value": "Loaders","link": "/loaders" },
-		{ "value": "Buttony", "list": true, "nameoflist": "buttons",
-			"elements": [
-				{ "value": "Android buttons", "link": "/button/android" },
-				{ "value": "Button to copying to clipboard", "link": "/button/clipboard" }
-			]
-		}
+  "files": [
+    { "value": "Ustawienia", "link": "/" },
+    {
+      "value": "Code Challenge",
+      "list": true,
+      "nameoflist": "codechallenge",
+      "elements": [
+        {
+          "value": "Jiggle Button",
+          "link": "/codeChallenge/jiggle_button",
+          "nr": 1
+        },
+        { "value": "Kalkulator", "link": "/codeChallenge/calc", "nr": 2 }
+      ]
+    },
+    { "value": "Loaders", "link": "/loaders" },
+    {
+      "value": "Buttony",
+      "list": true,
+      "nameoflist": "buttons",
+      "elements": [
+        { "value": "Android buttons", "link": "/button/android" },
+        {
+          "value": "Button to copying to clipboard",
+          "link": "/button/clipboard"
+        }
+      ]
+    }
   ]
 }
