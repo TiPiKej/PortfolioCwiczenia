@@ -12,20 +12,20 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/img/z.jpg"
   },
   {
-    "revision": "b56c32f87b849943ecdb",
-    "url": "/PortfolioCwiczenia/js/app.db762341.js"
+    "revision": "9205e9b32171b7f76437",
+    "url": "/PortfolioCwiczenia/js/app.bdb7515e.js"
   },
   {
-    "revision": "a51cff14f8882782f6b82b7755435764",
-    "url": "/PortfolioCwiczenia/img/p/3.jpg"
+    "revision": "735ab4f94fbcd57074377afca324c813",
+    "url": "/PortfolioCwiczenia/robots.txt"
   },
   {
     "revision": "a30647e1272dcc2b33df",
     "url": "/PortfolioCwiczenia/js/calc.78ee5b4c.js"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
-    "url": "/PortfolioCwiczenia/robots.txt"
+    "revision": "a51cff14f8882782f6b82b7755435764",
+    "url": "/PortfolioCwiczenia/img/p/3.jpg"
   },
   {
     "revision": "4bf7609fea7be4199dff",
@@ -36,15 +36,15 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/img/p/2.jpg"
   },
   {
-    "revision": "81373515df59bbaab5e3",
-    "url": "/PortfolioCwiczenia/js/chunk-f739.20a61364.js"
+    "revision": "cf5db281d0ed0d569a5c",
+    "url": "/PortfolioCwiczenia/js/chunk-ddd6.8b26099b.js"
   },
   {
     "revision": "bf6b577ce525efca4877",
     "url": "/PortfolioCwiczenia/js/chunk-vendors.e1f07146.js"
   },
   {
-    "revision": "3509e7cfe9ffb1ad42ae98b38a5c4a35",
+    "revision": "3b904d92e0149cc3f429f34f80a1570c",
     "url": "/PortfolioCwiczenia/index.html"
   },
   {
@@ -52,24 +52,20 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/js/JiggleButton.ccc008bb.js"
   },
   {
-    "revision": "3f283d78c1293dc0a4f9",
-    "url": "/PortfolioCwiczenia/js/settings.447cabfd.js"
-  },
-  {
-    "revision": "81373515df59bbaab5e3",
-    "url": "/PortfolioCwiczenia/css/chunk-f739.ee3c84af.css"
-  },
-  {
-    "revision": "3f283d78c1293dc0a4f9",
-    "url": "/PortfolioCwiczenia/css/settings.29016cdb.css"
-  },
-  {
-    "revision": "7ab7df5e978b479aae6aa09da6a2a219",
-    "url": "/PortfolioCwiczenia/img/code-coding-computer-270373.jpg"
+    "revision": "e17d58c499388f829a43",
+    "url": "/PortfolioCwiczenia/js/settings.dcbf91ef.js"
   },
   {
     "revision": "7769e097e1724bba4f897a092a181a2a",
     "url": "/PortfolioCwiczenia/img/my.jpg"
+  },
+  {
+    "revision": "e17d58c499388f829a43",
+    "url": "/PortfolioCwiczenia/css/settings.c70d7295.css"
+  },
+  {
+    "revision": "7ab7df5e978b479aae6aa09da6a2a219",
+    "url": "/PortfolioCwiczenia/img/code-coding-computer-270373.jpg"
   },
   {
     "revision": "556b6d16594697022fe61cdc3ed3d31d",
@@ -84,6 +80,10 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/css/loaders.857ae7d7.css"
   },
   {
+    "revision": "cf5db281d0ed0d569a5c",
+    "url": "/PortfolioCwiczenia/css/chunk-ddd6.03cb652b.css"
+  },
+  {
     "revision": "4bf7609fea7be4199dff",
     "url": "/PortfolioCwiczenia/css/chunk-400c.ee3c84af.css"
   },
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/css/calc.c684bbfa.css"
   },
   {
-    "revision": "b56c32f87b849943ecdb",
+    "revision": "9205e9b32171b7f76437",
     "url": "/PortfolioCwiczenia/css/app.a024c3b2.css"
   },
   {
