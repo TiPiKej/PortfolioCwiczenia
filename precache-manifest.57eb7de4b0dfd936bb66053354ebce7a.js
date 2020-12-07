@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/js/JiggleButton.59df7985.js"
   },
   {
-    "revision": "2e0ad14e73d1452b6117",
+    "revision": "448dec3e0a6966d8859e",
     "url": "/PortfolioCwiczenia/css/app.7f9ce0ca.css"
   },
   {
-    "revision": "2e0ad14e73d1452b6117",
-    "url": "/PortfolioCwiczenia/js/app.005f5a62.js"
+    "revision": "448dec3e0a6966d8859e",
+    "url": "/PortfolioCwiczenia/js/app.de53aff6.js"
   },
   {
     "revision": "c27b6c04321bdafce3f8",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/js/settings.eb3581fd.js"
   },
   {
-    "revision": "e3847cc0c41d3c91fdd000170aa1dce4",
+    "revision": "65afbdd83893ad7c07629a71516fa9e7",
     "url": "/PortfolioCwiczenia/index.html"
   },
   {
@@ -68,20 +68,20 @@ self.__precacheManifest = [
     "url": "/PortfolioCwiczenia/img/code-coding-computer-270373.jpg"
   },
   {
-    "revision": "7769e097e1724bba4f897a092a181a2a",
-    "url": "/PortfolioCwiczenia/img/my.jpg"
-  },
-  {
-    "revision": "aa8fb7cd4e62e6aa9f7b30d11c7dc6d9",
-    "url": "/PortfolioCwiczenia/img/p/1.jpg"
-  },
-  {
     "revision": "556b6d16594697022fe61cdc3ed3d31d",
     "url": "/PortfolioCwiczenia/img/codes-coding-computer-247791.jpg"
   },
   {
+    "revision": "7769e097e1724bba4f897a092a181a2a",
+    "url": "/PortfolioCwiczenia/img/my.jpg"
+  },
+  {
     "revision": "c2d24d81fd5cb7475ee3b6a29a7b650b",
     "url": "/PortfolioCwiczenia/img/p/2.jpg"
+  },
+  {
+    "revision": "aa8fb7cd4e62e6aa9f7b30d11c7dc6d9",
+    "url": "/PortfolioCwiczenia/img/p/1.jpg"
   },
   {
     "revision": "a51cff14f8882782f6b82b7755435764",
