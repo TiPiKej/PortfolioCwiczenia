@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <NavBar />
-    <InfoBar
+    <!-- <InfoBar
       value="Kliknij w baner żeby wejść do poprzedniej strony z ćwiczeniami"
       position="top-static"
       :exitButton="true"
-      banerLink="http://tomekkumor.000webhostapp.com/cw/" />
+      banerLink="http://tomekkumor.000webhostapp.com/cw/" /> -->
     <div class="content">
       <router-view/>
     </div>
